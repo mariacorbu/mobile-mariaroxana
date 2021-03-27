@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.heremap">
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HereMap"
+        android:hardwareAccelerated="true"
+        >
+        <meta-data android:name="com.here.android.maps.appid" android:value="xKfsdaFnTf9aUFRWK14E"/>
+        <meta-data android:name="com.here.android.maps.apptoken" android:value="fCiJL35UaJYHj-4HS41ANg"/>
+        <meta-data
+            android:name="com.here.android.maps.license.key"
+            android:value="k5wQmmb7TAqW72ljRNNkADvzFWd7UZPJZ85PlhttyeCQtpXWC1iRXnCY3Pszd/Xy3BCSgVEOZeOeOY0yb4EIqczspJNI8SL93b5krS45mGxmo4aMkZuhLkPOWQ916hWgONjLutYy9Wr8E7PeOqmTH9hENHvni7qCqV9nJslMKd8Dqq6HWnjh5wvrjxVQFNnPlW+T38LwwTD4UE6tBCE4q6/JaP/QaOnEGwkL6VlHo7KDeBrG4/oLbGCk+w9h+256y4/oRcrPbsKYk18PX8F3Q2a9CFU/1XkQOA2uS0Hnc5dgEYoxShRuXWBG8BqRo6sem/V6zf44oBL43IMOTEZ4bUaY9hijmtGCvk44XuSpsZH9A0AcphZw40od9B1T/oRTWUFZQwT1PUDzfJDGPsh1KJjUJ2L6VKdVCJdPb5WxwVoi/k0X6d/R8ulR30nO5+UszaexrkAQEw7mrPeUa6l4LKhd3GQOfvApAgwjMbUL1DtGqUN+65t1XjZI1ZLTShxZ491trMpOKeVAoMK4tVTgZnhh+QMRuDFlPGWCH4xu78hI7mQrK+byOr4HjbKfVhP30q/IwJfH18OevjbjjxSrvVGMScLnMarPggM6MZ3pQeHtXx9KZvY2vSzmOHolRgMl3pzlrPxGEbe+oYaVFbPBblkH5udA/XRhK/1NW3gkEHs=" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
